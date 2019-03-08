@@ -18,7 +18,11 @@ namespace ValoresEspeciais
             double j = double.MinValue;
             short k = short.MaxValue;
             short l = short.MinValue;
+            double m = double.PositiveInfinity;
+            float n = float.NegativeInfinity;
+            double o = m / m;
             string s = "-----------------------------------------------";
+
             Console.WriteLine("int32 Maximo " + a);
             Console.WriteLine(s);
             Console.WriteLine("int32 Minimo " + b);
@@ -42,6 +46,12 @@ namespace ValoresEspeciais
             Console.WriteLine("short Maximo " + k);
             Console.WriteLine(s);
             Console.WriteLine("short Minimo " + l);
+            Console.WriteLine(s);
+            Console.WriteLine("Infinito " + m);
+            Console.WriteLine(s);
+            Console.WriteLine("Infinito Negativo " + n);
+            Console.WriteLine(s);
+            Console.WriteLine("Não é Numero " + o);
             Console.WriteLine();
             Console.WriteLine("Enter para Sair");
             Console.ReadKey();
