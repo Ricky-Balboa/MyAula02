@@ -12,6 +12,8 @@ namespace VariasStrings
             string d = " Unicode -> \u03A6";
             string e = "Um \t (tab) e uma  \\ (barra) ";
             string Break = "------------------------------------------------------";
+            string s = String.Format("Ola {0} No. {1}!", "mundo", 3);
+            string f = String.Format("{0} mais {0} é igual a {1}", "Dois", "Quatro");
 
             Console.WriteLine(a);
             Console.WriteLine(Break);
@@ -22,6 +24,10 @@ namespace VariasStrings
             Console.WriteLine(d);
             Console.WriteLine(Break);
             Console.WriteLine(e);
+            Console.WriteLine(Break);
+            Console.WriteLine(s);
+            Console.WriteLine(Break);
+            Console.WriteLine(f);
             Console.WriteLine(Break);
             Console.WriteLine("Enter Para Fechar.");
             Console.ReadKey();
