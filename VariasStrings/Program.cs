@@ -24,23 +24,23 @@ namespace VariasStrings
             string h = $" {x} mais {y} é igual {x+y} feito por interpolação";//Exercicio 2
            
 
-            Console.WriteLine(a);//
+            Console.WriteLine(a);//Exercicio 1 
             Console.WriteLine(Break);
-            Console.WriteLine(b);//
+            Console.WriteLine(b);//Exercicio 1 
             Console.WriteLine(Break);
-            Console.WriteLine(c);//
+            Console.WriteLine(c);//Exercicio 1 
             Console.WriteLine(Break);
-            Console.WriteLine(d);//
+            Console.WriteLine(d);//Exercicio 1 
             Console.WriteLine(Break);
-            Console.WriteLine(e);//
+            Console.WriteLine(e);//Exercicio 1 
             Console.WriteLine(Break);
-            Console.WriteLine(s);//
+            Console.WriteLine(s);//Exercicio 2
             Console.WriteLine(Break);
-            Console.WriteLine(f);//
+            Console.WriteLine(f);//Exercicio 2
             Console.WriteLine(Break);
-            Console.WriteLine(g);//
+            Console.WriteLine(g);//Exercicio 2
             Console.WriteLine(Break);
-            Console.WriteLine(h);//
+            Console.WriteLine(h);//Exercicio 2
             Console.WriteLine(Break);
             Console.WriteLine(@" Sou mais uma string autista em verbatim :D");//Exercicio 2
             Console.WriteLine(Break);
