@@ -6,6 +6,9 @@ namespace VariasStrings
     {
         static void Main(string[] args)
         {
+            double xx = 0.12345;
+            int ii = 18;
+
             int x = 2;
             int y = 5;
             string a = " Isto é uma string ";
@@ -19,6 +22,7 @@ namespace VariasStrings
             string g = " sou" + "uma string" + " concatenada ";
             g += "(sou sim senhor)";//texto do final da string g
             string h = $" {x} mais {y} é igual {x+y} feito por interpolação";
+           
 
             Console.WriteLine(a);
             Console.WriteLine(Break);
@@ -39,6 +43,14 @@ namespace VariasStrings
             Console.WriteLine(h);
             Console.WriteLine(Break);
             Console.WriteLine(@"Sou mais uma string autista em verbatim :D");
+            Console.WriteLine(Break);
+            Console.WriteLine($"Exercicio 3 -> {xx:f2}");
+            Console.WriteLine(Break);
+            Console.WriteLine($"Exercicio 3 -> {xx:p1}");
+            Console.WriteLine(Break);
+            Console.WriteLine($"Exercicio 3 -> {ii:x}");
+            Console.WriteLine(Break);
+            Console.WriteLine($"Exercicio 3 -> {ii:c}");
             Console.WriteLine(Break);
             Console.WriteLine(" Enter Para Fechar!");
             Console.ReadKey();
