@@ -38,6 +38,8 @@ namespace VariasStrings
             Console.WriteLine(Break);
             Console.WriteLine(h);
             Console.WriteLine(Break);
+            Console.WriteLine(@"Sou mais uma string autista em verbatim :D");
+            Console.WriteLine(Break);
             Console.WriteLine(" Enter Para Fechar!");
             Console.ReadKey();
 
