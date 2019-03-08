@@ -22,6 +22,8 @@ namespace Cilindro
             string d = $"A Area do Cilindro é: A = 2\u03C0r(r+A) = {D:f3} ";//String do resultado
             Console.WriteLine(v);//Apresentar o resultado
             Console.WriteLine(d);//Apresentar o resultado
+            Console.WriteLine();
+            Console.WriteLine("Enter para sair");
             Console.ReadKey();
 
         }
