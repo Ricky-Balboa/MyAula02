@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace ValoresEspeciais
 {
@@ -6,6 +7,7 @@ namespace ValoresEspeciais
     {
         static void Main(string[] args)
         {
+            Console.OutputEncoding = Encoding.UTF8;
             int a = Int32.MaxValue;
             int b = Int32.MinValue;
             int c = Int16.MaxValue;
@@ -22,6 +24,10 @@ namespace ValoresEspeciais
             float n = float.NegativeInfinity;
             double o = m / m;
             string s = "-----------------------------------------------";
+            int p = short.MaxValue;
+            double q = 2 * double.MaxValue;
+            float f1, f2;
+            f1 =f2 = 10000.0f;
 
             Console.WriteLine("int32 Maximo " + a);
             Console.WriteLine(s);
@@ -52,6 +58,12 @@ namespace ValoresEspeciais
             Console.WriteLine("Infinito Negativo " + n);
             Console.WriteLine(s);
             Console.WriteLine("Não é Numero " + o);
+            Console.WriteLine(s);
+            Console.WriteLine($"OverFlow de short " + (short)(p+1));
+            Console.WriteLine(s);
+            Console.WriteLine($"OverFlow de Double " + (double) q);
+            Console.WriteLine(s);
+            Console.WriteLine($"Underflow de Float " + (f1 == f2 + 0.0001f ) );
             Console.WriteLine();
             Console.WriteLine("Enter para Sair");
             Console.ReadKey();
